@@ -1,9 +1,12 @@
 {
+  "homepage": "http://lischy.github.io/reactfluxDanielStern",
   "name": "library",
   "version": "1.0.0",
   "description": "library app with node",
   "main": "app.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --hot",
@@ -31,6 +34,7 @@
     "cors": "^2.8.5",
     "css-loader": "^3.6.0",
     "express": "^4.17.1",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^3.2.0",
     "mongodb": "^3.5.9",
     "react-scripts": "^1.0.7",

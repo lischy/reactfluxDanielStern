@@ -9,7 +9,7 @@ module.exports = {
     // and webpack starts bundling
     output: {
       // options related to how webpack emits results
-      path: path.resolve(__dirname, "public"), // string
+      path: path.resolve(__dirname, "build"), // string
       // the target directory for all output files
       // must be an absolute path (use the Node.js path module)
       filename: "index_bundle.js", // string
