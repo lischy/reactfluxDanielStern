@@ -19104,7 +19104,7 @@ var auth0_provider_with_history_Auth0ProviderWithHistory = function Auth0Provide
   return /*#__PURE__*/react_default.a.createElement(auth0_react_esm["a" /* Auth0Provider */], {
     domain: domain,
     clientId: clientId,
-    redirectUri: window.location.origin,
+    redirectUri: window.location.pathname,
     onRedirectCallback: onRedirectCallback
   }, children);
 };
